@@ -35,6 +35,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@antv/x6", "npm:1.29.6"],
+            ["@antv/x6-react-shape", "virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:1.6.0"],
             ["@vitejs/plugin-react", "npm:1.0.2"],
             ["babel-eslint", "virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:10.1.0"],
             ["commitizen", "npm:4.2.4"],
@@ -53,6 +55,51 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite", "virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:2.6.5"]
           ],
           "linkType": "SOFT",
+        }]
+      ]],
+      ["@antv/x6", [
+        ["npm:1.29.6", {
+          "packageLocation": "./.yarn/cache/@antv-x6-npm-1.29.6-e9a38dfcbc-67e7b12589.zip/node_modules/@antv/x6/",
+          "packageDependencies": [
+            ["@antv/x6", "npm:1.29.6"],
+            ["csstype", "npm:3.0.10"],
+            ["jquery", "npm:3.6.0"],
+            ["jquery-mousewheel", "npm:3.1.13"],
+            ["lodash-es", "npm:4.17.21"],
+            ["mousetrap", "npm:1.6.5"],
+            ["utility-types", "npm:3.10.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@antv/x6-react-shape", [
+        ["npm:1.6.0", {
+          "packageLocation": "./.yarn/cache/@antv-x6-react-shape-npm-1.6.0-8c4e7e95cb-f07c7ee3e7.zip/node_modules/@antv/x6-react-shape/",
+          "packageDependencies": [
+            ["@antv/x6-react-shape", "npm:1.6.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:1.6.0", {
+          "packageLocation": "./.yarn/__virtual__/@antv-x6-react-shape-virtual-99bc223a27/0/cache/@antv-x6-react-shape-npm-1.6.0-8c4e7e95cb-f07c7ee3e7.zip/node_modules/@antv/x6-react-shape/",
+          "packageDependencies": [
+            ["@antv/x6-react-shape", "virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:1.6.0"],
+            ["@antv/x6", "npm:1.29.6"],
+            ["@types/antv__x6", null],
+            ["@types/react", null],
+            ["@types/react-dom", null],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@antv/x6",
+            "@types/antv__x6",
+            "@types/react-dom",
+            "@types/react",
+            "react-dom",
+            "react"
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@babel/code-frame", [
@@ -1375,6 +1422,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-key", "npm:3.1.1"],
             ["shebang-command", "npm:2.0.0"],
             ["which", "npm:2.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["csstype", [
+        ["npm:3.0.10", {
+          "packageLocation": "./.yarn/cache/csstype-npm-3.0.10-e26ef49bb2-20a8fa324f.zip/node_modules/csstype/",
+          "packageDependencies": [
+            ["csstype", "npm:3.0.10"]
           ],
           "linkType": "HARD",
         }]
@@ -3185,6 +3241,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jquery", [
+        ["npm:3.6.0", {
+          "packageLocation": "./.yarn/cache/jquery-npm-3.6.0-ca7872bdbb-8fd5fef4aa.zip/node_modules/jquery/",
+          "packageDependencies": [
+            ["jquery", "npm:3.6.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["jquery-mousewheel", [
+        ["npm:3.1.13", {
+          "packageLocation": "./.yarn/cache/jquery-mousewheel-npm-3.1.13-854d2918be-3be0b9320a.zip/node_modules/jquery-mousewheel/",
+          "packageDependencies": [
+            ["jquery-mousewheel", "npm:3.1.13"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["js-tokens", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",
@@ -3418,6 +3492,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",
           "packageDependencies": [
             ["lodash", "npm:4.17.21"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash-es", [
+        ["npm:4.17.21", {
+          "packageLocation": "./.yarn/cache/lodash-es-npm-4.17.21-b45832dfce-05cbffad6e.zip/node_modules/lodash-es/",
+          "packageDependencies": [
+            ["lodash-es", "npm:4.17.21"]
           ],
           "linkType": "HARD",
         }]
@@ -3677,6 +3760,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mkdirp-npm-1.0.4-37f6ef56b9-a96865108c.zip/node_modules/mkdirp/",
           "packageDependencies": [
             ["mkdirp", "npm:1.0.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["mousetrap", [
+        ["npm:1.6.5", {
+          "packageLocation": "./.yarn/cache/mousetrap-npm-1.6.5-9cd826966c-1ce36af5ac.zip/node_modules/mousetrap/",
+          "packageDependencies": [
+            ["mousetrap", "npm:1.6.5"]
           ],
           "linkType": "HARD",
         }]
@@ -4368,6 +4460,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["react-samples", "workspace:."],
+            ["@antv/x6", "npm:1.29.6"],
+            ["@antv/x6-react-shape", "virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:1.6.0"],
             ["@vitejs/plugin-react", "npm:1.0.2"],
             ["babel-eslint", "virtual:4536a5e84b1fd4265fca0b68795458a481e292a5dfaba9a470c26420b8d770095eb33543edc341caf321c4b3ce54d631e30875370ca037313b7075a51a4a3b22#npm:10.1.0"],
             ["commitizen", "npm:4.2.4"],
@@ -5257,6 +5351,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip/node_modules/util-deprecate/",
           "packageDependencies": [
             ["util-deprecate", "npm:1.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["utility-types", [
+        ["npm:3.10.0", {
+          "packageLocation": "./.yarn/cache/utility-types-npm-3.10.0-747e7c6549-8f274415c6.zip/node_modules/utility-types/",
+          "packageDependencies": [
+            ["utility-types", "npm:3.10.0"]
           ],
           "linkType": "HARD",
         }]
